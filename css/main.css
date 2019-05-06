@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100vw;
+}
+
+body {
+    font-family: "Karla", "HelveticaNeue", "Helvetica Neue", sans-serif;
+    color: #666;
+    background-color: #f7f7f7;
+}
+
+.bb-word-logo {
+    width: 70vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+.navbar {
+    background-color: #f7f7f7;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    background-color: #5bC0eb;
+    text-align: center;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    font-size: 4vw;
+}
+
+nav ul li {
+    display: inline;
+    padding-left: 8vw;
+    padding-right: 8vw;
+}
+
+#intro {
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+#shop-info {
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+footer {
+    text-align: center;
+    background-color: #030303;
+}
+
+@media (min-width: 765px) {
+    ul {
+        font-size: 3vw;
+    }
+    
+}
