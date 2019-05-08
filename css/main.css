@@ -5,12 +5,15 @@
 
 .wrapper {
     width: 100vw;
+    overflow: auto;
 }
+
 
 body {
     font-family: "Karla", "HelveticaNeue", "Helvetica Neue", sans-serif;
     color: #666;
     background-color: #f7f7f7;
+    font-size: 5vw;
 }
 
 .bb-word-logo {
@@ -26,33 +29,64 @@ body {
     background-color: #f7f7f7;
 }
 
+h1 {
+    background-color: #5bC0eb;
+    color: #f7f7f7;
+    font-size: 7vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-left: 1vw;
+    display: inline;
+}
+
 a {
     color: white;
     text-decoration: none;
 }
 
 ul {
-    background-color: #5bC0eb;
+    background-color: #be9a06;
     text-align: center;
     padding-top: 2vw;
     padding-bottom: 2vw;
-    font-size: 4vw;
+    font-size: 6vw;
 }
 
 nav ul li {
     display: inline;
-    padding-left: 8vw;
-    padding-right: 8vw;
+    padding-left: 6vw;
+    padding-right: 6vw;
+}
+
+#shop-img {
+    width: 100%;
+}
+
+#bowl {
+    width: 100%;
+}
+
+.frontpage-p {
+    padding-left: 3vw;
+    padding-right: 3vw;
 }
 
 #intro {
-    padding-left: 3vw;
-    padding-right: 3vw;
+    margin-bottom: 5vw;
+}
+
+#intro p {
+    padding-top: 2vw;
 }
 
 #shop-info {
-    padding-left: 3vw;
-    padding-right: 3vw;
+    overflow: auto;
+}
+
+#shop-info p {
+    padding-top: 2vw;
 }
 
 footer {
@@ -60,9 +94,116 @@ footer {
     background-color: #030303;
 }
 
+#weather {
+    display: block;
+    overflow: auto;
+}
+
+.weather-article {
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgrey;
+    border-radius: 15px;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+    padding: 4vw 2vw 2vw 2vw;
+    overflow: auto;
+}
+
+.weather-article h2,
+p {
+    margin-left: .5vw;
+}
+
+.location-img {
+    width: 90%;
+    border-radius: 15px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#shop-page {
+    position: relative;
+    display: inline-block;
+}
+
+#shop-front{
+    width: 100vw;
+}
+
+#s-title {
+    position: absolute;
+    z-index: 999;
+    margin-left: 2vw;
+    left: 0;
+    right: 0;
+    top: 10%;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    width: 60%;
+}
+
+#s-text {
+    position: absolute;
+    z-index: 998;
+    margin-left: 3vw;
+    left: 0;
+    right: 0;
+    top: 75%;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    width: 60%;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 1px;
+    padding:2vw;
+}
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 765px) {
+    body {
+        font-size: 3vw;
+    }
+
+    h1 {
+        font-size: 5vw;
+    }
+
+    h2 {
+        font-size: 4vw;
+    }
+
     ul {
         font-size: 3vw;
     }
-    
+
+
+    .bb-word-logo {
+        width: 45vw;
+        display: block;
+        margin-left: 5vw;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+    }
+
+    .weather-article {
+        float: left;
+        width: 29vw;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        padding: 2vw 1vw 1vw 1vw;
+    }
+
+
+
+
 }
