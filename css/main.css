@@ -46,7 +46,7 @@ a {
     text-decoration: none;
 }
 
-ul {
+.top-menu {
     background-color: #be9a06;
     text-align: center;
     padding-top: 2vw;
@@ -90,8 +90,10 @@ nav ul li {
 }
 
 footer {
-    text-align: center;
+    text-align: left;
     background-color: #030303;
+    padding-top:2vw;
+    padding-bottom: 2vw;
 }
 
 #weather {
@@ -111,8 +113,7 @@ footer {
     overflow: auto;
 }
 
-.weather-article h2,
-p {
+.weather-article h2, p {
     margin-left: .5vw;
 }
 
@@ -133,31 +134,65 @@ p {
     width: 100vw;
 }
 
-#s-title {
-    position: absolute;
-    z-index: 999;
-    margin-left: 2vw;
-    left: 0;
-    right: 0;
-    top: 10%;
-    font-family: Arial, sans-serif;
-    color: #fff;
-    width: 60%;
-}
-
 #s-text {
     position: absolute;
     z-index: 998;
     margin-left: 3vw;
     left: 0;
     right: 0;
-    top: 75%;
+    top: 50%;
     font-family: Arial, sans-serif;
     color: #fff;
     width: 60%;
     background: rgba(0, 0, 0, 0.6);
     border-radius: 1px;
     padding:2vw;
+    font-size:4vw;
+}
+
+#shop-but {
+    width:15vw;
+    z-index: 999;
+    background-color: #be9a06;
+    padding: 2vw;
+    text-align: center;
+    margin-left: 40vw;
+    margin-top: 3vw;
+    font-size: 3vw;
+    border: none;
+    color: white;
+    font-family: "Karla", "HelveticaNeue", "Helvetica Neue", sans-serif;
+}
+
+#skater-profiles{
+    overflow: auto;
+}
+
+.profile-article {
+    width: 80vw;
+    background-color: lightgrey;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vw;
+    margin-bottom:5vw;
+    overflow: auto;
+    padding-bottom: 4vw;
+}
+
+.profile-img {
+    width:55vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4vw;
+    margin-bottom:2vw;
+}
+
+.profile-info {
+    overflow: auto;
+    margin-left: 8vw;
+    margin-top: 5vw;
+    float: left;
 }
 
 
@@ -182,13 +217,15 @@ p {
         font-size: 4vw;
     }
 
-    ul {
-        font-size: 3vw;
+    .top-menu {
+        font-size: 2vw;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
     }
 
 
     .bb-word-logo {
-        width: 45vw;
+        width: 35vw;
         display: block;
         margin-left: 5vw;
         padding-top: 2vw;
@@ -201,6 +238,21 @@ p {
         margin-left: 1vw;
         margin-right: 1vw;
         padding: 2vw 1vw 1vw 1vw;
+    }
+    
+    .profile-info{
+        margin-left: 2vw;
+    }
+    
+    .profile-img{
+        width:30vw;
+        margin-left: 3vw;
+        margin-right: 0;
+        float:left;
+    }
+    
+    #shop-but{
+        font-size: 2vw;
     }
 
 
