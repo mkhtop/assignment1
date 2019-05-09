@@ -125,6 +125,13 @@ footer {
     margin-left: auto;
 }
 
+.weather-icon{
+    width:30%;
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+}
+
 #shop-page {
     position: relative;
     display: inline-block;
