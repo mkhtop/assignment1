@@ -9,15 +9,15 @@ Below are wireframes for each page of the website. For the purpose of these wire
 
 
 ### MOBILE
-![MOBILE INDEX](/img/MOBILE-INDEX.png)
-![MOBILE INDEX](/img/MOBILE-WEATHER.png)
-![MOBILE INDEX](/img/MOBILE-TEAM.png)
-![MOBILE INDEX](/img/MOBILE-SHOP.png)
+![MOBILE INDEX](/img/MOBILE-INDEX.png | width=100) - Mobile index page
+![MOBILE INDEX](/img/MOBILE-WEATHER.png | width=100) - Mobile weather page
+![MOBILE INDEX](/img/MOBILE-TEAM.png | width=100) - Mobile team page
+![MOBILE INDEX](/img/MOBILE-SHOP.png | width=100) - Mobile shop page
 ### DESKTOP
-![DESKTOP INDEX](/img/DESKTOP-INDEX.png)
-![DESKTOP INDEX](/img/DESKTOP-WEATHER.png)
-![DESKTOP INDEX](/img/DESKTOP-TEAM.png)
-![DESKTOP INDEX](/img/DESKTOP-SHOP.png)
+![DESKTOP INDEX](/img/WEB-INDEX.png | width=100) - Desktop index page
+![DESKTOP INDEX](/img/WEB-WEATHER.png | width=100) - Desktop weather page
+![DESKTOP INDEX](/img/WEB-TEAM.png | width=100) - Desktop team page
+![DESKTOP INDEX](/img/WEB-SHOP.png | width=100) - Desktop shop page
 
 ## 1.1.3 Colour Choices
 As the shop has a current website for their products the choice of colours will be to match the existing website. This will allow for continuity between the sites and give customers a seamless change from one to the other. The existing beans and board website current uses a minimalist look, using yellow, white and light greys. Being a weather site, these colour will be incorporated well. To differentiate between the two sites, blue has been added to the weather site to incorporate the sense of the sky.
