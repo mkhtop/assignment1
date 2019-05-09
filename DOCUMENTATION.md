@@ -9,7 +9,8 @@ Below are wireframes for each page of the website. For the purpose of these wire
 
 
 ### MOBILE
-![MOBILE INDEX](/img/MOBILE-INDEX.png | width=100) - Mobile index page
+
+<img src="/img/MOBILE-INDEX.png" width="200"> - Mobile index page
 ![MOBILE INDEX](/img/MOBILE-WEATHER.png | width=100) - Mobile weather page
 ![MOBILE INDEX](/img/MOBILE-TEAM.png | width=100) - Mobile team page
 ![MOBILE INDEX](/img/MOBILE-SHOP.png | width=100) - Mobile shop page
