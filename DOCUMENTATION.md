@@ -7,18 +7,24 @@ A local skateboard shop (Beans and Boards) have a loyal customer base that use t
 ## 1.1.2 Wire frames
 Below are wireframes for each page of the website. For the purpose of these wire frames the mobile and desktop screens have been stretched in height to display the whole design of each page. 
 
-
 ### MOBILE
-
-<img src="/img/MOBILE-INDEX.png" width="200"> - Mobile index page
-![MOBILE INDEX](/img/MOBILE-WEATHER.png | width=100) - Mobile weather page
-![MOBILE INDEX](/img/MOBILE-TEAM.png | width=100) - Mobile team page
-![MOBILE INDEX](/img/MOBILE-SHOP.png | width=100) - Mobile shop page
+### Mobile index page
+<img src="/img/MOBILE-INDEX.png" width="300">
+### Mobile weather page
+<img src="/img/MOBILE-WEATHER.png" width="300">
+### Mobile team page
+<img src="/img/MOBILE-TEAM.png" width="300">
+### Mobile shop page
+<img src="/img/MOBILE-SHOP.png" width="300">
 ### DESKTOP
-![DESKTOP INDEX](/img/WEB-INDEX.png | width=100) - Desktop index page
-![DESKTOP INDEX](/img/WEB-WEATHER.png | width=100) - Desktop weather page
-![DESKTOP INDEX](/img/WEB-TEAM.png | width=100) - Desktop team page
-![DESKTOP INDEX](/img/WEB-SHOP.png | width=100) - Desktop shop page
+### Desktop index page
+<img src="/img/WEB-INDEX.png" width="300">
+### Desktop weather page
+<img src="/img/WEB-WEATHER.png" width="300">
+### Desktop team page
+<img src="/img/WEB-TEAM.png" width="300">
+### Desktop shop page
+<img src="/img/WEB-SHOP.png" width="300">
 
 ## 1.1.3 Colour Choices
 As the shop has a current website for their products the choice of colours will be to match the existing website. This will allow for continuity between the sites and give customers a seamless change from one to the other. The existing beans and board website current uses a minimalist look, using yellow, white and light greys. Being a weather site, these colour will be incorporated well. To differentiate between the two sites, blue has been added to the weather site to incorporate the sense of the sky.
