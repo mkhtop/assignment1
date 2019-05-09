@@ -8,14 +8,16 @@ $(document).ready(function() {
         winchApi = "https://api.openweathermap.org/data/2.5/weather?lat=51.066963&lon=-1.310457&APPID=9fae6f1794cac669146df18a250ae45d",
         stanmoreApi = "https://api.openweathermap.org/data/2.5/weather?lat=51.051789&lon=-1.334090&APPID=9fae6f1794cac669146df18a250ae45d";
 
-    /*$.getJSON(winchApi, function(data) {
+    $.getJSON(winchApi, function(data) {
         console.log(data);
-    })  */
+    })  
 
     $.getJSON(sotonApi, function(data) {
         sotonWeatherType = data.weather[0].main;
+        var sotonTemp = data.main.temp;
+        sotonTemp = (sotonTemp - 273).toFixed(0)
         var sotonW = document.getElementById("sotonWeather");
-        sotonW.innerHTML = sotonWeatherType;
+        sotonW.innerHTML = sotonWeatherType + " - " + sotonTemp + "&#8451";
         if (sotonWeatherType === "Rain") {
             document.getElementById("soton-w-icon").src = "/img/rain-icon.png";
         }
@@ -38,8 +40,10 @@ $(document).ready(function() {
 
     $.getJSON(winchApi, function(data) {
         winchWeatherType = data.weather[0].main;
+        var winchTemp = data.main.temp;
         var winchW = document.getElementById("winchWeather");
-        winchW.innerHTML = winchWeatherType;
+        winchTemp = (winchTemp - 273).toFixed(0)
+        winchW.innerHTML = winchWeatherType + " - " + winchTemp + "&#8451";
         if (winchWeatherType === "Rain") {
             document.getElementById("winch-w-icon").src = "/img/rain-icon.png";
         }
@@ -62,8 +66,10 @@ $(document).ready(function() {
 
     $.getJSON(stanmoreApi, function(data) {
         stanmoreWeatherType = data.weather[0].main;
+        var stanmoreTemp = data.main.temp;
         var stanmoreW = document.getElementById("stanmoreWeather");
-        stanmoreW.innerHTML = stanmoreWeatherType;
+        stanmoreTemp = (stanmoreTemp - 273).toFixed(0)
+        stanmoreW.innerHTML = stanmoreWeatherType + " - " + stanmoreTemp + "&#8451";
         if (stanmoreWeatherType === "Rain") {
             document.getElementById("stanmore-w-icon").src = "/img/rain-icon.png";
         }
