@@ -6,6 +6,8 @@ A local skateboard shop (Beans and Boards) have a loyal customer base that use t
 ##1.1.2 Wire frames
 Below are wireframes for each page of the website. For the purpose of these wire frames the mobile and desktop screens have been stretched in height to display the whole design of each page. 
 
+
+![MOBILE INDEX](/IMG/MOBILE-INDEX.PNG)
 ###MOBILE
 ###DESKTOP
 INSERT WIRE FRAME HERE
