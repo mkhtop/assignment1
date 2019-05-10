@@ -8,22 +8,22 @@ A local skateboard shop (Beans and Boards) have a loyal customer base that use t
 Below are wireframes for each page of the website. For the purpose of these wire frames the mobile and desktop screens have been stretched in height to display the whole design of each page. 
 
 ### MOBILE
-### Mobile index page
+Mobile index page
 <img src="/img/MOBILE-INDEX.png" width="200">
-### Mobile weather page
+Mobile weather page
 <img src="/img/MOBILE-WEATHER.png" width="200">
-### Mobile team page
+Mobile team page
 <img src="/img/MOBILE-TEAM.png" width="200">
-### Mobile shop page
+Mobile shop page
 <img src="/img/MOBILE-SHOP.png" width="200">
 ### DESKTOP
-### Desktop index page
+Desktop index page
 <img src="/img/WEB-INDEX.png" width="400">
-### Desktop weather page
+Desktop weather page
 <img src="/img/WEB-WEATHER.png" width="400">
-### Desktop team page
+Desktop team page
 <img src="/img/WEB-TEAM.png" width="400">
-### Desktop shop page
+Desktop shop page
 <img src="/img/WEB-SHOP.png" width="400">
 
 ## 1.1.3 Colour Choices
