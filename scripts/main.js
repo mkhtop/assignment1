@@ -27,6 +27,9 @@ $(document).ready(function() {
         if (sotonWeatherType === "Clouds") {
             document.getElementById("soton-w-icon").src = "/img/cloudy-icon.png";
         }
+        if (sotonWeatherType === "Mist") {
+            document.getElementById("soton-w-icon").src = "/img/cloudy-icon.png";
+        }
         if (sotonWeatherType === "Drizzle") {
             document.getElementById("soton-w-icon").src = "/img/drizzle-icon.png";
         }
@@ -53,6 +56,9 @@ $(document).ready(function() {
         if (winchWeatherType === "Clouds") {
             document.getElementById("winch-w-icon").src = "/img/cloudy-icon.png";
         }
+        if (winchWeatherType === "Mist") {
+            document.getElementById("winch-w-icon").src = "/img/cloudy-icon.png";
+        }
         if (winchWeatherType === "Drizzle") {
             document.getElementById("winch-w-icon").src = "/img/drizzle-icon.png";
         }
@@ -77,6 +83,9 @@ $(document).ready(function() {
             document.getElementById("stanmore-w-icon").src = "/img/clear-icon.png";
         }
         if (stanmoreWeatherType === "Clouds") {
+            document.getElementById("stanmore-w-icon").src = "/img/cloudy-icon.png";
+        }
+        if (stanmoreWeatherType === "Mist") {
             document.getElementById("stanmore-w-icon").src = "/img/cloudy-icon.png";
         }
         if (stanmoreWeatherType === "Drizzle") {
