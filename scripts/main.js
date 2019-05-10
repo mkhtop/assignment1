@@ -19,25 +19,25 @@ $(document).ready(function() {
         var sotonW = document.getElementById("sotonWeather");
         sotonW.innerHTML = sotonWeatherType + " - " + sotonTemp + "&#8451";
         if (sotonWeatherType === "Rain") {
-            document.getElementById("soton-w-icon").src = "/img/rain-icon.png";
+            document.getElementById("soton-w-icon").src = "img/rain-icon.png";
         }
         if (sotonWeatherType === "Clear") {
-            document.getElementById("soton-w-icon").src = "/img/clear-icon.png";
+            document.getElementById("soton-w-icon").src = "img/clear-icon.png";
         }
         if (sotonWeatherType === "Clouds") {
-            document.getElementById("soton-w-icon").src = "/img/cloudy-icon.png";
+            document.getElementById("soton-w-icon").src = "img/cloudy-icon.png";
         }
         if (sotonWeatherType === "Mist") {
-            document.getElementById("soton-w-icon").src = "/img/cloudy-icon.png";
+            document.getElementById("soton-w-icon").src = "img/cloudy-icon.png";
         }
         if (sotonWeatherType === "Drizzle") {
-            document.getElementById("soton-w-icon").src = "/img/drizzle-icon.png";
+            document.getElementById("soton-w-icon").src = "img/drizzle-icon.png";
         }
         if (sotonWeatherType === "Thunderstorm") {
-            document.getElementById("soton-w-icon").src = "/img/thunder-icon.png";
+            document.getElementById("soton-w-icon").src = "img/thunder-icon.png";
         }
         if (sotonWeatherType === "Snow") {
-            document.getElementById("soton-w-icon").src = "/img/snow-icon.png";
+            document.getElementById("soton-w-icon").src = "img/snow-icon.png";
         }
     })
 
@@ -48,25 +48,25 @@ $(document).ready(function() {
         winchTemp = (winchTemp - 273).toFixed(0)
         winchW.innerHTML = winchWeatherType + " - " + winchTemp + "&#8451";
         if (winchWeatherType === "Rain") {
-            document.getElementById("winch-w-icon").src = "/img/rain-icon.png";
+            document.getElementById("winch-w-icon").src = "img/rain-icon.png";
         }
         if (winchWeatherType === "Clear") {
-            document.getElementById("winch-w-icon").src = "/img/clear-icon.png";
+            document.getElementById("winch-w-icon").src = "img/clear-icon.png";
         }
         if (winchWeatherType === "Clouds") {
-            document.getElementById("winch-w-icon").src = "/img/cloudy-icon.png";
+            document.getElementById("winch-w-icon").src = "img/cloudy-icon.png";
         }
         if (winchWeatherType === "Mist") {
-            document.getElementById("winch-w-icon").src = "/img/cloudy-icon.png";
+            document.getElementById("winch-w-icon").src = "img/cloudy-icon.png";
         }
         if (winchWeatherType === "Drizzle") {
-            document.getElementById("winch-w-icon").src = "/img/drizzle-icon.png";
+            document.getElementById("winch-w-icon").src = "img/drizzle-icon.png";
         }
         if (winchWeatherType === "Thunderstorm") {
-            document.getElementById("winch-w-icon").src = "/img/thunder-icon.png";
+            document.getElementById("winch-w-icon").src = "img/thunder-icon.png";
         }
         if (winchWeatherType === "Snow") {
-            document.getElementById("winch-w-icon").src = "/img/snow-icon.png";
+            document.getElementById("winch-w-icon").src = "img/snow-icon.png";
         }
     })
 
@@ -77,25 +77,25 @@ $(document).ready(function() {
         stanmoreTemp = (stanmoreTemp - 273).toFixed(0)
         stanmoreW.innerHTML = stanmoreWeatherType + " - " + stanmoreTemp + "&#8451";
         if (stanmoreWeatherType === "Rain") {
-            document.getElementById("stanmore-w-icon").src = "/img/rain-icon.png";
+            document.getElementById("stanmore-w-icon").src = "img/rain-icon.png";
         }
         if (stanmoreWeatherType === "Clear") {
-            document.getElementById("stanmore-w-icon").src = "/img/clear-icon.png";
+            document.getElementById("stanmore-w-icon").src = "img/clear-icon.png";
         }
         if (stanmoreWeatherType === "Clouds") {
-            document.getElementById("stanmore-w-icon").src = "/img/cloudy-icon.png";
+            document.getElementById("stanmore-w-icon").src = "img/cloudy-icon.png";
         }
         if (stanmoreWeatherType === "Mist") {
-            document.getElementById("stanmore-w-icon").src = "/img/cloudy-icon.png";
+            document.getElementById("stanmore-w-icon").src = "img/cloudy-icon.png";
         }
         if (stanmoreWeatherType === "Drizzle") {
-            document.getElementById("stanmore-w-icon").src = "/img/drizzle-icon.png";
+            document.getElementById("stanmore-w-icon").src = "img/drizzle-icon.png";
         }
         if (stanmoreWeatherType === "Thunderstorm") {
-            document.getElementById("stanmore-w-icon").src = "/img/thunder-icon.png";
+            document.getElementById("stanmore-w-icon").src = "img/thunder-icon.png";
         }
         if (stanmoreWeatherType === "Snow") {
-            document.getElementById("stanmore-w-icon").src = "/img/snow-icon.png";
+            document.getElementById("stanmore-w-icon").src = "img/snow-icon.png";
         }
     })
 
